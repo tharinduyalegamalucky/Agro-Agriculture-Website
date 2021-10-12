@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;1,300;1,400&display=swap');
+
+.body{
+    color: aqua;
+}
+
+
+.navbar{
+    background-color: rgb(255, 255, 255)!important;
+}
+.navbar .navbar-brand img{
+    height: 4rem;
+    width: auto ;
+}
+.navbar .navbar-toggler{
+    border: none;
+    outline: none;
+    font-size: 1.8rem;
+}
+.navbar .navbar-collapse .navbar-nav li{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500; 
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    color: #1f2436;
+}
+.navbar .navbar-collapse .navbar-nav .nav-link:hover{
+    color: #00cc00;
+}
+
+
+.overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.home-page-content{
+    padding-top: 12%;
+}
+.home-page-text {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 4rem;
+    color: white;
+    text-shadow: 2px 1px #1f2436;
+}
+.home-supporting-text{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 2px 1px #1f2436;
+}
+.homepage-btn-1 {
+    background: #00cc00;
+    color: white;
+    margin-left: 610px;
+    font-family: 'Raleway', sans-serif;
+    font-size: x-large;
+    border-radius: .4rem;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+.homepage-btn-1:hover {
+    background: #004d00;
+    color: white;
+}
+.homepage-btn-1:focus {
+    background: #006600;
+    color: white;
+}
+.col-4{
+    flex-basis: 25%;
+    padding: 20px;
+    min-width: 200px;
+    margin-bottom: 50px;
+}
+.col-4 img{
+    width: 100%;
+}
+.text-center-footer-text{
+    font-family: 'Raleway', sans-serif;
+    position: 50px;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: black;
+    text-shadow: 2px 1px #1f2436;
+
+}
+.text-center-support-text{
+    font-family: 'Raleway', sans-serif;
+    position: 50px;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: black;
+    text-shadow: 2px 1px #1f2436;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.team .team-slider{
+    padding-bottom: 2rem;
+}
+
+.team .box{
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0,.1);
+    border-radius: .5rem ;
+}
+
+.team .box img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.team .box h3{
+    color: #333;
+    font-size: rem;
+}
+
+.team .box p{
+    color: #666;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
